@@ -14,7 +14,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center py-4 lg:py-5">
           <TransitionLink href="/" className="cursor-pointer w-auto h-auto">
             <Image
-              src="/logo/az.svg"
+              src="/logo/a.svg"
               alt="logo"
               quality={100}
               width={30}

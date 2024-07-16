@@ -31,7 +31,7 @@ body {
 /* Exit and Enter Page Animation */
 .page-transition {
   opacity: 0;
-  background: #222;
+  background: #fb28cd;
   transform: translateY(40px);
   filter: blur(12px);
   visibility: hidden;
@@ -75,11 +75,6 @@ body {
   font-weight: 400;
   font-style: normal;
 }
-
-/* .hero-text {
-  text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
-  color: white;
-} */
 
 .drop-cap::first-letter {
   float: left;
@@ -266,7 +261,11 @@ body {
   }
 
   .hero-text {
-    @apply text-[2.45rem] xs:text-[3.4rem] sm:text-[5rem] md:text-[6.4rem] mid-md:text-[7.2rem] lg:text-[8.65rem] xl:text-[11rem] 2xl:text-[12.8rem] leading-[1.2];
+    @apply uppercase text-[4.7rem] xs:text-[6.6rem] sm:text-[9.6rem] md:text-[11.5rem] lg:text-[16rem] xl:text-[17rem] 2xl:text-[21.5rem]  whitespace-nowrap;
+  }
+
+  .hero-side-content {
+    @apply source-code uppercase text-[1rem] md:text-[1.1rem] lg:text-[1.3rem];
   }
 
   .heading {

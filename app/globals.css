@@ -241,6 +241,13 @@ body {
   opacity: 1;
 }
 
+@layer base {
+  img {
+    width: auto;
+    height: auto;
+  }
+}
+
 @layer utilities {
   .source-code-xs {
     @apply source-code uppercase tracking-widest text-[0.80rem] font-normal;
@@ -259,7 +266,7 @@ body {
   }
 
   .hero-text {
-    @apply uppercase text-[4.7rem] xs:text-[6.6rem] sm:text-[9.6rem] md:text-[11.5rem] lg:text-[16rem] xl:text-[17rem] 2xl:text-[21.5rem]  whitespace-nowrap;
+    @apply z-20 uppercase text-[4.7rem] xs:text-[6.6rem] sm:text-[9.6rem] md:text-[11.5rem] lg:text-[16rem] xl:text-[17rem] 2xl:text-[21.5rem]  whitespace-nowrap;
   }
 
   .hero-side-content {

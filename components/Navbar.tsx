@@ -6,6 +6,7 @@ import { navLinks } from "@/lib/data";
 import Image from "next/image";
 import FlipLink from "./FlipLink";
 import TransitionLink from "./TransitionLink";
+import AzLogo from "@/public/logo/a.svg";
 
 export default function Navbar() {
   return (
@@ -14,11 +15,12 @@ export default function Navbar() {
         <div className="flex justify-between items-center py-4 lg:py-5">
           <TransitionLink href="/" className="cursor-pointer w-auto h-auto">
             <Image
-              src="/logo/a.svg"
+              src={AzLogo}
               alt="logo"
               quality={100}
-              width={30}
-              height={30}
+              // width={25}
+              // height={25}
+              className="w-8 h-8"
             />
           </TransitionLink>
           <div className="flex items-center gap-8">

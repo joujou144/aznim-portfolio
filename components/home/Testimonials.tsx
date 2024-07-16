@@ -67,7 +67,7 @@ const Testimonials = () => {
               transition={{ type: "linear", duration: 0.5 }}
             >
               <div className="divider border-t md:border-t-0 md:border-l px-0 py-4 md:px-5 md:py-0">
-                <cite className="text-gray-500 opacity-80">
+                <cite className="text-gray-500 opacity-80 text-[0.9rem] md:text-[0.95rem]">
                   &quot;{quote}&quot;
                 </cite>
                 <div className="flex items-center gap-5 mt-6">

@@ -1,12 +1,7 @@
 import { CONTACT, STYLECLASSES } from "@/lib/data";
-import Link from "next/link";
-import Clock from "../Clock";
-import FlipLink from "../FlipLink";
-import Image from "next/image";
-import { Bebas_Neue, Inter, Oswald } from "next/font/google";
+import { Oswald } from "next/font/google";
 import { Fragment } from "react";
-
-// bg-[#dec6e2]
+import FlipLink from "../FlipLink";
 
 const oswald = Oswald({
   weight: ["700"],
@@ -51,12 +46,12 @@ const SideContent = () => {
     <Fragment>
       <div>
         <label className=" text-stone-600 ">Current</label>
-        <p className="mt-2 font-normal">Front end engineer</p>
+        <p className="mt-1 font-normal">Front end engineer</p>
         <p className="font-normal">Available to start now</p>
       </div>
       <div>
         <label className="text-stone-600 ">Contact</label>
-        <ul className="mt-2 font-normal opacity-90 flex flex-col items-start gap-1.5">
+        <ul className="mt-1 font-normal opacity-90 flex flex-col items-start gap-1.5">
           {CONTACT.map(({ label, href, icon }) => {
             const newTab = label === "linkedin";
             return (

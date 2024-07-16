@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 480 420">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <circle class="cls-1" cx="30" cy="30" r="6"/>
+  <circle class="cls-1" cx="150" cy="30" r="6"/>
+  <circle class="cls-1" cx="270" cy="30" r="6"/>
+  <circle class="cls-1" cx="390" cy="30" r="6"/>
+  <circle class="cls-1" cx="450" cy="30" r="6"/>
+  <circle class="cls-1" cx="30" cy="150" r="6"/>
+  <circle class="cls-1" cx="150" cy="150" r="6"/>
+  <circle class="cls-1" cx="270" cy="150" r="6"/>
+  <circle class="cls-1" cx="390" cy="150" r="6"/>
+  <circle class="cls-1" cx="450" cy="150" r="6"/>
+  <circle class="cls-1" cx="30" cy="270" r="6"/>
+  <circle class="cls-1" cx="150" cy="270" r="6"/>
+  <circle class="cls-1" cx="270" cy="270" r="6"/>
+  <circle class="cls-1" cx="390" cy="270" r="6"/>
+  <circle class="cls-1" cx="450" cy="270" r="6"/>
+  <circle class="cls-1" cx="30" cy="390" r="6"/>
+  <circle class="cls-1" cx="150" cy="390" r="6"/>
+  <circle class="cls-1" cx="90" cy="30" r="6"/>
+  <circle class="cls-1" cx="90" cy="150" r="6"/>
+  <circle class="cls-1" cx="90" cy="270" r="6"/>
+  <circle class="cls-1" cx="90" cy="390" r="6"/>
+  <circle class="cls-1" cx="270" cy="390" r="6"/>
+  <circle class="cls-1" cx="210" cy="30" r="6"/>
+  <circle class="cls-1" cx="210" cy="150" r="6"/>
+  <circle class="cls-1" cx="210" cy="270" r="6"/>
+  <circle class="cls-1" cx="210" cy="390" r="6"/>
+  <circle class="cls-1" cx="390" cy="390" r="6"/>
+  <circle class="cls-1" cx="330" cy="30" r="6"/>
+  <circle class="cls-1" cx="30" cy="90" r="6"/>
+  <circle class="cls-1" cx="150" cy="90" r="6"/>
+  <circle class="cls-1" cx="270" cy="90" r="6"/>
+  <circle class="cls-1" cx="390" cy="90" r="6"/>
+  <circle class="cls-1" cx="450" cy="90" r="6"/>
+  <circle class="cls-1" cx="90" cy="90" r="6"/>
+  <circle class="cls-1" cx="210" cy="90" r="6"/>
+  <circle class="cls-1" cx="330" cy="90" r="6"/>
+  <circle class="cls-1" cx="330" cy="150" r="6"/>
+  <circle class="cls-1" cx="30" cy="210" r="6"/>
+  <circle class="cls-1" cx="150" cy="210" r="6"/>
+  <circle class="cls-1" cx="270" cy="210" r="6"/>
+  <circle class="cls-1" cx="390" cy="210" r="6"/>
+  <circle class="cls-1" cx="450" cy="210" r="6"/>
+  <circle class="cls-1" cx="90" cy="210" r="6"/>
+  <circle class="cls-1" cx="210" cy="210" r="6"/>
+  <circle class="cls-1" cx="330" cy="210" r="6"/>
+  <circle class="cls-1" cx="330" cy="270" r="6"/>
+  <circle class="cls-1" cx="30" cy="330" r="6"/>
+  <circle class="cls-1" cx="150" cy="330" r="6"/>
+  <circle class="cls-1" cx="270" cy="330" r="6"/>
+  <circle class="cls-1" cx="390" cy="330" r="6"/>
+  <circle class="cls-1" cx="450" cy="330" r="6"/>
+  <circle class="cls-1" cx="90" cy="330" r="6"/>
+  <circle class="cls-1" cx="210" cy="330" r="6"/>
+  <circle class="cls-1" cx="330" cy="330" r="6"/>
+  <circle class="cls-1" cx="330" cy="390" r="6"/>
+  <circle class="cls-1" cx="450" cy="390" r="6"/>
+</svg>

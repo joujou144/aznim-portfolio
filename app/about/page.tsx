@@ -5,6 +5,7 @@ import {
   WorkExperience,
   ProfileImage,
 } from "@/components/about";
+import { Skills } from "@/components/about/WorkExperience";
 import { ABOUT_MAIN, ABOUT_SUBTEXT } from "@/lib/data";
 
 const About = () => {
@@ -25,6 +26,7 @@ const About = () => {
 
         <Download />
         <WorkExperience />
+        <Skills />
         <Bookshelf />
       </div>
 

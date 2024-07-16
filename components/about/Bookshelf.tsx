@@ -6,7 +6,7 @@ const Bookshelf = () => {
       <div className="source-code-sm">
         <h4>Bookshelf</h4>
       </div>
-      <div className="mid-md:px-6 quattro-regular">
+      <div className="mid-md:px-6">
         <h4 className="text-stone-500 mb-4 source-code-xs">New favourites</h4>
         <ul className="flex flex-col gap-6 capitalize">
           {FAV_BOOKS.map(({ author, title }) => (
@@ -18,7 +18,7 @@ const Bookshelf = () => {
         </ul>
       </div>
 
-      <div className="mid-md:px-6 quattro-regular">
+      <div className="mid-md:px-6">
         <h4 className="text-stone-500 mb-4 source-code-xs">
           Currently reading
         </h4>

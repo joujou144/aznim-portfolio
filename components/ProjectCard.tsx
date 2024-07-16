@@ -51,9 +51,6 @@ const ProjectCard = ({
       </motion.div>
 
       <motion.div
-        // initial={{ x: 20, opacity: 0 }}
-        // animate={{ x: 0, opacity: 1 }}
-        // transition={{ ease: "easeIn", duration: 0.5 }}
         className={`flex flex-col ${isEven ? "items-start" : "items-end"} `}
       >
         <p className="mb-2 mt-4 text-[1.1rem] xs:text-[1.3rem]">
@@ -64,7 +61,7 @@ const ProjectCard = ({
           className={classNames({
             "project-description": true,
             "text-left w-full": isEven,
-            "text-right mid-md:w-[65%]": !isEven,
+            "text-right mid-md:w-[60%]": !isEven,
           })}
         >
           {description}

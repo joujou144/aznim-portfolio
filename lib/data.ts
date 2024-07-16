@@ -1,6 +1,6 @@
 import losttracker from "@/public/images/losttracker.png";
 import decubeProject from "@/public/images/decube.png";
-import issueTrackerProject from "@/public/images/issuetracker.jpg";
+import issueTrackerProject from "@/public/images/issuetracker.png";
 import abundent from "@/public/logo/abundent-logo.svg";
 import decube from "@/public/logo/Decube-logo.svg";
 import unitednations from "@/public/logo/un-logo.png";

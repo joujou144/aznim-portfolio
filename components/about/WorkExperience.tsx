@@ -11,7 +11,7 @@ const WorkExperience = () => {
         <ul className="flex flex-col gap-6">
           {EXPERIENCES.map(({ role, date, company, description }) => (
             <li key={company} className="list-none">
-              <p className="text-stone-700">{company}</p>
+              <p className="text-stone-500">{company}</p>
               <p className="font-semibold source-code-sm">{role}</p>
               <p className="opacity-60 text-[0.9rem]">{date}</p>
               <p className=" mt-2 content-font">{description}</p>

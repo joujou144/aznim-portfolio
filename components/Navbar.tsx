@@ -1,17 +1,13 @@
 "use client";
 
-import { AzLogo, Clock } from "@/components";
+import { Fragment } from "react";
+import { Clock } from "@/components";
 import { navLinks } from "@/lib/data";
-import { usePathname } from "next/navigation";
+import Image from "next/image";
 import FlipLink from "./FlipLink";
 import TransitionLink from "./TransitionLink";
-import Image from "next/image";
-import { Fragment } from "react";
 
 export default function Navbar() {
-  const pathname = usePathname();
-  const showNavbar = pathname !== "/";
-
   return (
     <Fragment>
       <nav className=" z-20 w-full max-w-[93rem] mx-auto absolute left-0 right-0 px-6 mid-md:px-8">
@@ -24,11 +20,10 @@ export default function Navbar() {
               width={30}
               height={30}
             />
-            {/* <AzLogo fill={`${isHero ? "#fff" : "#222"}`} /> */}
           </TransitionLink>
           <div className="flex items-center gap-8">
             <NavMenu />
-            <Clock />
+            <Clock className="hidden md:inline-flex" />
           </div>
         </div>
       </nav>

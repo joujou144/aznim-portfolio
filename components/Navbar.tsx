@@ -14,7 +14,7 @@ export default function Navbar() {
       <nav className=" z-20 w-full max-w-[93rem] mx-auto absolute left-0 right-0 px-6 mid-md:px-8">
         <div className="flex justify-between items-center py-4 lg:py-5">
           <TransitionLink href="/" className="cursor-pointer w-auto h-auto">
-            <Image src={AzLogo} alt="logo" quality={100} className="w-8 h-8" />
+            <Image src={AzLogo} alt="logo" quality={100} className="w-7 h-7" />
           </TransitionLink>
           <div className="flex items-center gap-8">
             <NavMenu />

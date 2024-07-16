@@ -6,4 +6,3 @@ export { default as Clock } from "./Clock";
 export { default as Summary } from "./Summary";
 export { default as Dots } from "./Dots";
 export { default as ProjectCard } from "./ProjectCard";
-export { default as AzLogo } from "./home/AzLogo";

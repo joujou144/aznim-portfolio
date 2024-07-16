@@ -2,6 +2,7 @@ import { CONTACT, STYLECLASSES } from "@/lib/data";
 import { Oswald } from "next/font/google";
 import { Fragment } from "react";
 import FlipLink from "../FlipLink";
+import StaggeredText from "../StaggeredText";
 
 const oswald = Oswald({
   weight: ["700"],
@@ -21,20 +22,21 @@ const Hero = () => {
 
       <div className="relative z-10 w-full">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-2">
-          <h1
-            className={`${oswald.className} leading-none md:leading-[0.8] lg:leading-[0.9] hero-text md:col-span-2`}
+          <StaggeredText
+            className={`${oswald.className} hero-text md:col-span-2`}
           >
             Aznim
-          </h1>
+          </StaggeredText>
+
           <div className="hero-side-content mt-4 md:mt-0 order-last md:col-span-1 flex flex-col justify-end gap-4">
             <SideContent />
           </div>
 
-          <h1
+          <StaggeredText
             className={`${oswald.className} leading-[0.9] hero-text md:order-last col-span-1 md:col-span-3`}
           >
             Rahman
-          </h1>
+          </StaggeredText>
         </div>
       </div>
     </section>

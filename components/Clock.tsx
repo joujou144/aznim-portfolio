@@ -28,7 +28,7 @@ const Clock = ({ className }: { className?: string }) => {
     <div className={`${className} flex gap-3 items-center`}>
       <FiClock size={18} />
 
-      <p className="source-code-md">{currentTime}</p>
+      <p className="source-code-sm">{currentTime}</p>
     </div>
   );
 };

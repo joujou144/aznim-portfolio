@@ -1,5 +1,4 @@
 import { EXPERIENCES, SKILLS } from "@/lib/data";
-import { Oswald } from "next/font/google";
 
 const WorkExperience = () => {
   return (

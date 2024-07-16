@@ -17,6 +17,7 @@ const oswald = Oswald({
 const Hero = () => {
   return (
     <section className="h-svh p-6 md:px-8 hero bg-stone-300 flex flex-col justify-end">
+      {/* Goo blobs */}
       <div className="absolute inset-0 gradients-container">
         {STYLECLASSES.map(({ style }) => (
           <div key={style} className={style} />

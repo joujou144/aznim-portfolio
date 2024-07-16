@@ -3,7 +3,7 @@ import { Footer } from "@/components";
 
 export default function Home() {
   return (
-    <main className="max-w-[93rem] mx-auto bg-gray-200 bg-opacity-80">
+    <main className="max-w-[93rem] mx-auto bg-gray-200 bg-opacity-85">
       <Hero />
       <Intro />
       <RecentProject />

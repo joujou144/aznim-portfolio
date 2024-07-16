@@ -17,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="!scroll-smooth">
-      <body className="relative overflow-x-hidden select-none text-charcoal bg-gray-200 bg-opacity-80">
+      <body className="relative overflow-x-hidden select-none text-charcoal bg-gray-200 bg-opacity-85">
         <Navbar />
         {children}
       </body>

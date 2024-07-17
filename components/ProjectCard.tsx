@@ -66,7 +66,7 @@ const ProjectCard = ({
         >
           {description}
         </p>
-        <ul className="list-none flex flex-wrap items-center gap-2 text-[0.75rem]">
+        <ul className="list-none flex flex-wrap justify-end gap-2 text-[0.75rem]">
           {tags.map((tag) => (
             <li key={tag} className="px-2 py-0.5 rounded-full bg-neutral-300">
               {tag}

@@ -13,13 +13,13 @@ const Download = () => {
         >
           Download CV
         </Link>
-        <Link
+        <a
           href="mailto:hello@aznim.xyz"
           className="text-stone-500 opacity-70 cursor-pointer flex gap-1 items-center hover:text-stone-700"
         >
           Say hi
           <PiArrowUpRightThin className="mt-2" />
-        </Link>
+        </a>
       </div>
     </div>
   );

@@ -115,6 +115,10 @@ export const EXPERIENCES = [
 
 export const CURRENT_BOOKS = [
   {
+    title: "Secrets of the JavaScript Ninja",
+    author: "John Resig & Bear Bibeault",
+  },
+  {
     title: "The computer science of human decisions",
     author: "Brian christian & Tom griffits",
   },
@@ -122,12 +126,12 @@ export const CURRENT_BOOKS = [
 ] as const;
 
 export const FAV_BOOKS = [
+  { title: "Killing Sacred Cows", author: "Garret Gunderson" },
   { title: "The book of phi", author: "Jain 108" },
   {
     title: "The Kybalion",
     author: "Three initiates",
   },
-  { title: "Killing Sacred Cows", author: "Garret Gunderson" },
   { title: "One hundred years of solitude", author: "Gabriel García Márquez" },
 ] as const;
 

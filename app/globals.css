@@ -256,7 +256,7 @@ body {
   }
 
   .content-font {
-    @apply text-[0.95rem] mid-md:text-[1rem] tracking-[0.015em] text-gray-800 font-semibold opacity-90;
+    @apply text-[0.95rem] mid-md:text-[1rem] tracking-[0.015em] text-gray-800 font-medium opacity-90;
   }
 
   .hero-text {

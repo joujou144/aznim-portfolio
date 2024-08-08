@@ -15,7 +15,7 @@ const About = () => {
         <div className="py-6 border-t divider grid grid-cols-1 gap-y-6 md:gap-y-0 md:grid-cols-2 lg:grid-cols-3">
           <ProfileImage />
           <div className="md:pl-6 flex flex-col">
-            <p className="drop-cap mt-auto font-semibold content-font">
+            <p className="drop-cap mt-auto content-font">
               {ABOUT_MAIN}
               <br />
               <br />

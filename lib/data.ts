@@ -77,7 +77,7 @@ Constantly pushing my boundaries and stepping out of my comfort zone has made me
 powerhouse multitasker who strives for nothing short of excellence in any challenge
 I may be presented with.`;
 
-export const ABOUT_SUBTEXT = `I have practical experience focusing in React, Next.js, and TypeScript,
+export const ABOUT_SUBTEXT = `I have practical experience focusing in React, Next.js, and Typescript,
 leveraging best practices to develop responsive and high-performance
 user interfaces that enhance customer experiences. My competence extends to backend
 integration, API testing, and frontend automation testing using Cypress and React Testing Library.`;

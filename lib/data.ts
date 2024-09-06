@@ -23,7 +23,7 @@ export const CONTACT = [
   {
     label: "linkedin",
     icon: React.createElement(FiArrowUpRight),
-    href: "https://www.linkedin.com/in/azracrawf",
+    href: "https://www.linkedin.com/in/aznimrahman",
   },
   {
     label: "hello@aznim.xyz",
@@ -114,6 +114,7 @@ export const EXPERIENCES = [
 ] as const;
 
 export const CURRENT_BOOKS = [
+  { title: "The Karamazov Brothers", author: "Fyodor Dostoevsky" },
   {
     title: "Secrets of the JavaScript Ninja",
     author: "John Resig & Bear Bibeault",
@@ -122,7 +123,6 @@ export const CURRENT_BOOKS = [
     title: "The computer science of human decisions",
     author: "Brian christian & Tom griffits",
   },
-  { title: "How to win friends and influence people", author: "Dale carnegie" },
 ] as const;
 
 export const FAV_BOOKS = [
@@ -142,7 +142,7 @@ export const PROJECTS = [
     title: "LostTracker Missing Persons",
     href: "https://react-losttracker.vercel.app",
     description:
-      "This app helps users search for and view profiles of missing persons with infinite scrolling and location-based features using Leaflet. Users can also bookmark profiles and post new missing person profiles.",
+      "This app helps users search for and view profiles of missing persons with infinite scrolling and location-based features using Leaflet. Users can also bookmark, save and post new missing person profiles.",
     tags: ["Typescript", "Vite", "React", "Leaflet", "Tailwind", "Appwrite"],
     imageUrl: losttracker,
   },
@@ -173,7 +173,7 @@ export const SKILLS = `JavaScript, React, NextJs, Typescript, CSS, Tailwind, Fra
 
 // FOOTER //
 export const FOOTER_LINKS = [
-  { label: "Linkedin", href: "https://www.linkedin.com/in/azracrawf" },
+  { label: "Linkedin", href: "https://www.linkedin.com/in/aznimrahman" },
   { label: "github", href: "https://github.com/joujou144" },
 ] as const;
 

@@ -2,7 +2,7 @@ import { Navbar } from "@/components";
 import "./globals.css";
 
 export const metadata = {
-  title: "Aznim Rahman Crawford | Front-end Engineer | Creative Developer",
+  title: "Aznim Rahman Crawford | Front-end Engineer",
   description:
     "Aznim is a front-end developer with 3 years experience creating user-centric web applications and responsive designs.",
   icons: {

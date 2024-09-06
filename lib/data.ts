@@ -42,7 +42,7 @@ export const STYLECLASSES = [
 ] as const;
 
 export const INTRO =
-  "professional front-end developer with three years experience, committed to solving complex software development challenges. With a keen eye for UI design and visual aesthetics, I strive to deliver elegant and responsive designs while focused on writing maintainable and reusable code.";
+  "professional, self-taught front-end developer with three years experience, committed to solving complex software development challenges. With a keen eye for UI design and visual aesthetics, I strive to deliver elegant and responsive designs while focused on writing maintainable and reusable code.";
 
 export const TESTIMONIALS = [
   {
